@@ -5,6 +5,6 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 public interface CrimeHolderFactory {
-    CrimeListFragment.CrimeHolder createCrimeHolder(ViewGroup parent, LayoutInflater inflater);
+    CrimeAdapter.CrimeHolder createCrimeHolder(ViewGroup parent, LayoutInflater inflater);
 }
 
